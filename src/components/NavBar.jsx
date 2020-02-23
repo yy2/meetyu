@@ -5,14 +5,12 @@ import "../css/NavBar.css";
 function NavBar() {
     return (
         <header className="NavBar">
-            <h3>Yu Yuan</h3>
             <nav className="Nav">
+                    <Link to="/" className="home">Yu Yuan</Link>
                 <ul className="nav-list">
-                    <Link>
-                    <li><Link to="/" className="home">Home</Link></li>
                     <li><Link to="/about" className="about">About</Link></li>
+                    <li><Link to="/works" className="works">Works</Link></li>
                     <li><Link to="/contact" className="contact">Contact Me</Link></li>
-                    </Link>
                 </ul>
             </nav>
         </header>

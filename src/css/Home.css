@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+
+.home-container {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.profile-pic img{
+    max-width: 20%;
+    max-height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+}
+
+.about-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.das-popup {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+.das-popup .das-popup-text {
+    visibility: hidden;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .das-popup .das-popup-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .das-popup:hover .das-popup-text {
+    visibility: visible;
+    opacity: 1;
+  }
