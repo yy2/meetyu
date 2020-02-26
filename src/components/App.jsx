@@ -5,7 +5,6 @@ import About from "./About";
 import Works from "./Works";
 import ContactMe from "./ContactMe";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {

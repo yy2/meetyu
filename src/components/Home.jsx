@@ -1,7 +1,6 @@
 import React from "react";
 import pic from "../images/profile.png";
 import "../css/Home.css";
-// import { Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
 
