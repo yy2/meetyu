@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/meetyu/precache-manifest.0566e7455585f921e66812785a59688e.js"
+  "/meetyu/precache-manifest.add7c5899738b3c004f9c2c3b9792ce9.js"
 );
 
 self.addEventListener('message', (event) => {
