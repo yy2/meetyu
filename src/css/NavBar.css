@@ -9,22 +9,21 @@
 .Nav {
     font-family: "Open Sans", sans-serif;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 20px 5px 20px;
     border-bottom: 1px solid #d5e0f2;
 }
-
-.home {
-    margin-right: auto;
-    font-size: 1.5em;
-    color: #112e2d;
+.name-link a{
+    text-decoration: none;
 }
 
-.home:hover {
-    color: red;
-    text-decoration: none;
-    border-bottom: 2px solid red;
+.first-name {
+    color: #576d91;
+}
+
+.last-name {
+    color: #54beff;
 }
 
 .nav-list {
@@ -38,7 +37,7 @@
 }
 
 .nav-list li a {
-    color: #112e2d;
+    color: #576d91; /*#112e2d; */
     text-decoration: none;
     transition: all 0.3s ease 0s;
 }
