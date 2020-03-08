@@ -7,7 +7,7 @@ function NavBar() {
         <header className="NavBar">
             <nav className="Nav">
                 <div className="name-container">
-                    <Link to="/" className="name-link">
+                    <Link to="/meetyu" className="name-link">
                         <h2 className="first-name">Yu
                         <span className="last-name"> Yuan</span>
                         </h2>

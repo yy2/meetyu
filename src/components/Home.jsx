@@ -2,7 +2,6 @@ import React from "react";
 import pic from "../images/profile2.png";
 import "../css/styles.css";
 // import { Button } from 'react-bootstrap';
-import { Link } from "react-router-dom";
 
 
 function Home() {
