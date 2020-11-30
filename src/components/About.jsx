@@ -24,7 +24,7 @@ function About() {
                         <Skills name="CSS" color_style={{color: 'purple'}}/>
                         <Skills name="React" color_style={{color: 'green'}}/>
                         <Skills name="Unix" color_style={{color: 'red'}}/>
-                        <Skills name="SQL" color_style={{color: 'purple'}}/>
+                        <Skills name="SQL" color_style={{color: 'cyan'}}/>
                     </div>
                     <br />
                     <br />
